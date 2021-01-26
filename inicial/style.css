@@ -19,12 +19,13 @@ body {
     padding: 0;
     width: 100%;
     height: 80px;
+    background-color: #4a171e;
 }
 
 .logo {
     letter-spacing: 1px;
     float: left;
-    color: #4a171e;
+    color: #e2b144;
     font-size: 22px;
     line-height: 80px;
     padding: 0 6px;
@@ -46,39 +47,65 @@ body {
 
 .menu ul li a {
     text-decoration: none;
-    color: #4a171e;
+    color: #e2b144;
     font-weight: lighter;
     padding: 0 20px;
 }
 
 .card {
+    border: 2px solid #4a171e;
+    margin-right: 0 auto;
+    padding: 10px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    right: 62%;
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
     font-weight: lighter;
+    background-color: white;
+    border-radius: 25px;
 }
-.card img {
-font-size: 20px;
 
+.card h1{
+    font-size: 30px;
+    color: #4a171e;
+    text-align: center;
+}
+
+.card img {
+    width: 350px;
+    text-align: center;
+    padding: 5px 50px;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    background-color: ;
 }
 
 .card span {
     font-size: 52px;
-    color: #4a171e;
+    color: #e2b144;
+    background-color: #e2b144;
 }
 
 .card p {
     font-size: 18px;
+    color: #4a171e;
 }
 
-.card button {
-    color: #4a171e;
-    border: 1px solid black;
+.button button{
+    margin-left: 105px;
+    width:90;
+    height:10;
+    text-align: center;
+    padding: 15px 20px;
+    border: 2px solid #4a171e;
     border-radius: 25px;
     padding: 10px 20px;
     background: none;
+    background-color:#4a171e;
+    color: #e2b144;
 }
 
 .menu ul ul {
@@ -98,4 +125,3 @@ font-size: 20px;
 .menu ul li:hover ul {
     display: block;
 }
-
